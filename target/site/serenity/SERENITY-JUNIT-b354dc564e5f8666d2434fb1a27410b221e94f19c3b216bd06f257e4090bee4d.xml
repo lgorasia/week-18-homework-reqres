@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="in.reqres.studentinfo.UserCURDTestWithSteps" skipped="0" tests="6" time="8.28" timestamp="2022-06-09T15:47:38.570+01:00[Europe/London]"><testcase classname="in.reqres.studentinfo.UserCURDTestWithSteps" name="This will create a user"/><testcase classname="in.reqres.studentinfo.UserCURDTestWithSteps" name="Verify is User is added or not"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+in.reqres.studentinfo.UsersSteps.getProductInfoByName(UsersSteps.java:46)&#13;
+in.reqres.studentinfo.UserCURDTestWithSteps.test002(UserCURDTestWithSteps.java:43)&#13;
+</system-err></testcase><testcase classname="in.reqres.studentinfo.UserCURDTestWithSteps" name="This will login a user"/><testcase classname="in.reqres.studentinfo.UserCURDTestWithSteps" name="This will update a user by PUT"/><testcase classname="in.reqres.studentinfo.UserCURDTestWithSteps" name="This will update a user by Patch"/><testcase classname="in.reqres.studentinfo.UserCURDTestWithSteps" name="This will update a user by Patch"/></testsuite>

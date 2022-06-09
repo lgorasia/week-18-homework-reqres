@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="in.reqres.studentinfo.StudentCURDTestWithSteps" skipped="0" tests="2" time="6.97" timestamp="2022-06-05T19:32:26.400+01:00[Europe/London]"><testcase classname="in.reqres.studentinfo.StudentCURDTestWithSteps" name="This will create a new user"/><testcase classname="in.reqres.studentinfo.StudentCURDTestWithSteps" name="Verify if the user was added to the application"><error message="The parameter &quot;first_name&quot; was used but not defined. Define parameters using the JsonPath.params(...) function" type="java.lang.IllegalArgumentException">The parameter "first_name" was used but not defined. Define parameters using the JsonPath.params(...) function</error><system-err>The parameter "first_name" was used but not defined. Define parameters using the JsonPath.params(...) function&#13;
+io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:50)&#13;
+io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)&#13;
+io.restassured.path.json.JsonPath.get(JsonPath.java:202)&#13;
+io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.path(RestAssuredResponseOptionsGroovyImpl.groovy:398)&#13;
+io.restassured.internal.RestAssuredResponseOptionsImpl.path(RestAssuredResponseOptionsImpl.java:200)&#13;
+in.reqres.studentinfo.UsersSteps.getUserInfoByName(UsersSteps.java:41)&#13;
+in.reqres.studentinfo.StudentCURDTestWithSteps.test002(StudentCURDTestWithSteps.java:42)&#13;
+</system-err></testcase></testsuite>
